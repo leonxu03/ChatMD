@@ -15,3 +15,4 @@ RAG chatbot that uses uploaded PDF vector embeddings as context to answer medica
 ### Start server     
 - make sure you are in the server directory
 - `uvicorn test:app --reload`
+- `uvicorn main:app --reload`
