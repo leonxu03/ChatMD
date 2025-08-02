@@ -21,7 +21,7 @@ def get_llm_chain(retriever):
         template="""
             You are **ChatMD**, an AI-powered assistant trained to help users understand medical documents and health-related questions. 
 
-            Your jkob is to provide clear, accurate, and helpful responses based **only on the provided context**.
+            Your job is to provide clear, accurate, and helpful responses based **only on the provided context**.
 
             --- 
 
