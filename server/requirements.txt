@@ -1,0 +1,29 @@
+# Web Framework
+fastapi
+uvicorn[standard]
+python-multipart # upload files
+aiofiles
+pydantic
+requests
+tqdm
+loguru # logging
+
+# LangChain
+langchain
+langchain-community
+langchain-core
+langchain-groq
+
+# Vector db
+pinecone
+
+# Embeddings
+langchain-google-genai
+
+# PDF parsing
+PyPDF
+
+# ENV
+python-dotenv
+
+# install using -> uv pip install -r requirements.txt
