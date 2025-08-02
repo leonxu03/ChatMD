@@ -69,6 +69,9 @@ def upload_vectorstore(uploaded_files):
 
         print(f"Embedding chunks {len(chunks)}")
         embedding=embed_model.embed_documents(texts)
+
+        for i in range(len(ids)):
+            metadata[i]["chunk"] = i
         
         print("Upserting embeddings...")
         with tqdm(total=len(embedding), desc="Upsert embeddings") as progress:
