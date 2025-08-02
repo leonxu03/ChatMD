@@ -8,6 +8,11 @@ RAG chatbot that uses uploaded PDF vector embeddings as context to answer medica
 - check if successfully installed with `uv -V`
 
 ### Setup prerequisites
+0. Get API keys for the following and put it in a `/server/.env` file
+    - `GOOGLE_API_KEY`
+    - `PINECONE_API_KEY`
+    - `PINECONE_INDEX_NAME`
+    - `GROQ_API_KEY`
 1. `source .venv/bin/activate`
 2. `cd server`
 3. `uv pip install -r requirements.txt`
