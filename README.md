@@ -13,6 +13,8 @@ Feel free to play with the deployed project [here](https://chatmd.streamlit.app/
 
 # Demo
 
+https://github.com/user-attachments/assets/6827813a-69cb-4b70-bce3-845d2211b423
+
 # System Architecture
 
 ![IMG_0942](https://github.com/user-attachments/assets/6d908320-402f-42f0-822a-ac8b6ff4bca4)
