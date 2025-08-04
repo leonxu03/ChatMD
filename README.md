@@ -9,7 +9,11 @@ This project implements a full-stack RAG (Retrieval-Augmented Generation) pipeli
   
 To create domain-specific answers to medical queries using real PDF documents.
 
+# Use
+
 Feel free to play with the deployed project [here](https://chatmd.streamlit.app/)
+
+_Notes: if web page or file upload is taking a while to load, likely due to streamlit (frontend) or render (backend) servers spinning up from a cold start._
 
 # Demo
 
